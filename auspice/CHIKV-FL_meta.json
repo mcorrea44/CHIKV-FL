@@ -1,0 +1,132 @@
+{
+  "annotations": {
+    "CHIKVgp1": {
+      "end": 7501,
+      "start": 76,
+      "strand": 1
+    },
+    "CHIKVgp2": {
+      "end": 11313,
+      "start": 7566,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 11826,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "Micronesia",
+          "#D9DF14"
+        ],
+        [
+          "USA/Florida",
+          "#F10B16"
+        ],
+        [
+          "Haiti",
+          "#07B44B"
+        ],
+        [
+          "Mexico",
+          "#12837C"
+        ],
+        [
+          "Brazil",
+          "#0A5A76"
+        ],
+        [
+          "Puerto Rico",
+          "#4E5B87"
+        ],
+        [
+          "Trinidad and Tobago",
+          "#CA97CB"
+        ],
+        [
+          "Colombia",
+          "#19DCE5"
+        ],
+        [
+          "Nicaragua",
+          "#E5B719"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    }
+  },
+  "defaults": {
+    "colorBy": "country",
+    "geoResolution": "country",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country"
+  ],
+  "geo": {
+    "country": {
+      "Brazil": {
+        "latitude": -14.235,
+        "longitude": -51.9253
+      },
+      "Colombia": {
+        "latitude": 4.5709,
+        "longitude": -74.2973
+      },
+      "Haiti": {
+        "latitude": 18.9712,
+        "longitude": -72.2852
+      },
+      "Mexico": {
+        "latitude": 23.6345,
+        "longitude": -102.5528
+      },
+      "Micronesia": {
+        "latitude": 7.4256,
+        "longitude": 150.5508
+      },
+      "Nicaragua": {
+        "latitude": 12.8654,
+        "longitude": -85.2072
+      },
+      "Puerto Rico": {
+        "latitude": 18.2208,
+        "longitude": -66.5901
+      },
+      "Trinidad and Tobago": {
+        "latitude": 10.6918,
+        "longitude": -61.2225
+      },
+      "USA/Florida": {
+        "latitude": 25.5516,
+        "longitude": -80.6327
+      }
+    }
+  },
+  "maintainer": [
+    "Maria Correa",
+    "github.com"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "CHIKV-FL",
+  "updated": "04 Mar 2020",
+  "virus_count": 39
+}
